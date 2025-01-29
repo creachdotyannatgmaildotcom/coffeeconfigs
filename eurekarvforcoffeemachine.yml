@@ -9,4 +9,7 @@ eureka:
     registerWithEureka: false # not registering himself
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-    
+logging:
+  level:
+    com.netflix.discovery: debug
+    com.netflix.loadbalancer: debug
