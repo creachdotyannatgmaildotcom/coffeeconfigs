@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: drinkCofee
+
+
+server:
+  port: 8090
+
+
