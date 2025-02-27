@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: eurekaserver
   client:
     fetchRegistry: false  # never gonna call other microservices so don't have to fetch the registry eg: list
     registerWithEureka: false # not registering himself
